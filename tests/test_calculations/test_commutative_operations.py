@@ -1,6 +1,7 @@
 from calculations import calculate_sum, calculate_product
 
 
+
 def test_calculate_sum():
 
     calculation = calculate_sum(5, 3)

@@ -9,3 +9,10 @@ def test_app():
     client = TestClient(app)
     
     return client
+
+
+@pytest.fixture(scope="module")
+def test_client():
+    client = TestClient(app)
+
+    return client
